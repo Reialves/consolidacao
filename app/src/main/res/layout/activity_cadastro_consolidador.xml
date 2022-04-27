@@ -92,6 +92,7 @@
             android:layout_width="275dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
             android:text="Cadastrar" />
 
         <TextView

@@ -225,10 +225,12 @@
 
             <Button
                 android:id="@+id/btnCadastrar"
-                android:layout_width="match_parent"
+                android:layout_width="275dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="45dp"
                 android:backgroundTint="@color/colorAccent"
+                android:gravity="center|center_horizontal"
                 android:onClick="cadastrar"
                 android:text="Cadastrar" />
 
