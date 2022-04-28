@@ -6,4 +6,5 @@
     <color name="background">#F6D1A6</color>
     <color name="branco_translucido">#DCFFFFFF</color>
     <color name="azul_link">#1665F7</color>
+    <color name="black">#000000</color>
 </resources>

@@ -38,4 +38,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent2 = new Intent(getApplicationContext(),CadastroConsolidadorActivity.class);
         startActivity(intent2);
     }
+
+    public void telaEstudos(View view){
+        Intent intent2 = new Intent(getApplicationContext(),Estudos.class);
+        startActivity(intent2);
+    }
+
 }

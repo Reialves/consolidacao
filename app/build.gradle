@@ -12,7 +12,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }
-    compileOptions{
+    compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
@@ -54,7 +54,14 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.3.1')
     implementation 'com.google.firebase:firebase-analytics'
 
+    //implementação da biblioteca para uso do pdf
+    //https://github.com/Karumi/Dexter
+    implementation 'com.karumi:dexter:6.2.3'
+
+    //PDF Viewer
+    //https://github.com/barteksc/AndroidPdfViewer
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
 }
-    //plugin do Firebase
-    apply plugin: 'com.android.application'
-    apply plugin: 'com.google.gms.google-services'
+//plugin do Firebase
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
