@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 import android.widget.VideoView;
+
+import com.example.myapplication.R;
+import com.example.myapplication.activity.MainActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -34,6 +37,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(new Intent(getBaseContext(), MainActivity.class));
                 finish();
             }
-        }, 11000);
+        }, 10000);
     }
 }

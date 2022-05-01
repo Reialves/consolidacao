@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.myapplication.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
@@ -30,17 +31,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void telaCadastro(View view){
-        Intent intent = new Intent(getApplicationContext(),Cadastro.class);
+        Intent intent = new Intent(getApplicationContext(), Cadastro.class);
         startActivity(intent);
     }
 
     public void telaCadastroConsolidador (View view){
-        Intent intent2 = new Intent(getApplicationContext(),CadastroConsolidadorActivity.class);
+        Intent intent2 = new Intent(getApplicationContext(), CadastroConsolidadorActivity.class);
         startActivity(intent2);
     }
 
     public void telaEstudos(View view){
-        Intent intent2 = new Intent(getApplicationContext(),Estudos.class);
+        Intent intent2 = new Intent(getApplicationContext(), Estudos.class);
         startActivity(intent2);
     }
 

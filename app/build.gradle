@@ -56,7 +56,7 @@ dependencies {
 
     //implementação da biblioteca para uso do pdf
     //https://github.com/Karumi/Dexter
-    implementation 'com.karumi:dexter:6.2.3'
+    //implementation 'com.karumi:dexter:6.2.3'
 
     //PDF Viewer
     //https://github.com/barteksc/AndroidPdfViewer

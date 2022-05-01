@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.myapplication.R;
+import com.example.myapplication.activity.LoginActivity;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
@@ -30,7 +32,7 @@ public class CadastroConsolidadorActivity extends AppCompatActivity {
     }
 
     public void telaLogin (View view){
-        Intent intent3 = new Intent(getApplicationContext(),LoginActivity.class);
+        Intent intent3 = new Intent(getApplicationContext(), LoginActivity.class);
         startActivity(intent3);
     }
 }
